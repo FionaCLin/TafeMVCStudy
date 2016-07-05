@@ -10,27 +10,36 @@ namespace Domain
     {
         static void Main(string[] args)
         {
-            var facade = new Facade();
-            //var person = facade.AddPerson("Frank Black");
-
-            //var person = facade.People.Where(p => p.Name.Equals("Frank Black")).First();
-            //var person = facade.FetchPerson("Jack Black");
-            ////person = facade.UpdatePerson(person.Id, "Jack Black");
-            //if(person != null)
-            //{
-            //    person = facade.UpdatePerson(person.Id,"Frank Black");
-            //}
-
-            //delete 
-            var person = facade.FetchPerson("Frank Black");
-            if(person != null)
+            try
             {
-                facade.DeletePerson(person.Id);
+
+                var facade = new Facade();
+                //var person = facade.AddPerson("Frank Black");
+
+                //var person = facade.People.Where(p => p.Name.Equals("Frank Black")).First();
+                //var person = facade.FetchPerson("Jack Black");
+                ////person = facade.UpdatePerson(person.Id, "Jack Black");
+                //if(person != null)
+                //{
+                //    person = facade.UpdatePerson(person.Id,"Frank Black");
+                //}
+                var id = Guid.Empty;
+                ////delete 
+                //var person = facade.FetchPerson("Frank Black");
+                //if (person != null)
+                //{
+                // facade.DeletePerson(person.Id);
+                //}
+                var person = facade.FetchPerson(id);
+                //foreach (var p in facade.People)
+                //{
+                //    Console.WriteLine("Id: {0} Name: {1}", p.Id, p.Name);
+                //}
+                
             }
-
-            foreach(var p in facade.People)
+            catch (Exception ex)
             {
-                Console.WriteLine("Id: {0} Name: {1}", p.Id, p.Name);
+                Console.WriteLine("Exception: {0}", ex.Message);
             }
             Console.ReadKey();
         }

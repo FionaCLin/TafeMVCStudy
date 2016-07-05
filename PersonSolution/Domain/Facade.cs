@@ -12,7 +12,12 @@ namespace Domain
         #region Person
         public Person FetchPerson(Guid id)
         {
-            return _context.People.Find(id);
+            var result = _context.People.Find(id);
+            if(result == null)
+            {
+                throw new Exception("Invalid Id supplied.");
+            }
+            return result;
         }
         public Person FetchPerson(string name)
         {
