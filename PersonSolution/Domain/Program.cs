@@ -14,28 +14,15 @@ namespace Domain
             {
 
                 var facade = new Facade();
-                //var person = facade.AddPerson("Frank Black");
-
-                //var person = facade.People.Where(p => p.Name.Equals("Frank Black")).First();
-                //var person = facade.FetchPerson("Jack Black");
-                ////person = facade.UpdatePerson(person.Id, "Jack Black");
-                //if(person != null)
-                //{
-                //    person = facade.UpdatePerson(person.Id,"Frank Black");
-                //}
-                var id = Guid.Empty;
-                ////delete 
-                //var person = facade.FetchPerson("Frank Black");
-                //if (person != null)
-                //{
-                // facade.DeletePerson(person.Id);
-                //}
-                var person = facade.FetchPerson(id);
-                //foreach (var p in facade.People)
-                //{
-                //    Console.WriteLine("Id: {0} Name: {1}", p.Id, p.Name);
-                //}
-                
+                //create a new person record
+                var person = facade.AddPerson("Michael Smith");
+                //To test fetch the new person
+                person = facade.FetchPerson(person.Id);
+                facade.UpdatePerson(person.Id, "David Smith");
+                //Print out the details of the person
+                Console.WriteLine("Details: Id {0} Name {1}", person.Id, person.Name);
+                //Delete the Person record
+                facade.DeletePerson(person.Id);                
             }
             catch (Exception ex)
             {
