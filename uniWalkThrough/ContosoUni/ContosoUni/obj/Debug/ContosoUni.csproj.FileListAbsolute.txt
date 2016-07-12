@@ -14,6 +14,8 @@ D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\ContosoUni.dll.c
 D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\ContosoUni.dll
 D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\ContosoUni.pdb
 D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\Antlr3.Runtime.dll
+D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\EntityFramework.dll
+D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\EntityFramework.SqlServer.dll
 D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\Microsoft.Web.Infrastructure.dll
 D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\Newtonsoft.Json.dll
@@ -25,6 +27,8 @@ D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\System.Web.WebPa
 D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\System.Web.WebPages.dll
 D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\System.Web.WebPages.Razor.dll
 D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\WebGrease.dll
+D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\EntityFramework.xml
+D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\EntityFramework.SqlServer.xml
 D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\System.Web.Helpers.xml
 D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\System.Web.Mvc.xml
@@ -35,6 +39,5 @@ D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\System.Web.WebPa
 D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\System.Web.WebPages.Razor.xml
 D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\Antlr3.Runtime.pdb
 D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\bin\Newtonsoft.Json.xml
-D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\obj\Debug\ContosoUni.csprojResolveAssemblyReference.cache
 D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\obj\Debug\ContosoUni.dll
 D:\github\TafeMVCStudy\uniWalkThrough\ContosoUni\ContosoUni\obj\Debug\ContosoUni.pdb
